@@ -13,9 +13,9 @@ cd rootFile <br />
 //download the code in this file <br />
 
 //creating a virtual env <br />
-python -m venv flask1 <br />
+python -m venv flask_env1 <br />
 //activating <br />
-source flask1/bin/activate <br />
+source flask_env1/bin/activate <br />
 
 //install flask <br />
 pip install flask <br />
