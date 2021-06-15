@@ -6,26 +6,26 @@
 
 # running the server
 
-//creating a root file
-mkdir rootFile
-cd rootFile
+//creating a root file <br />
+mkdir rootFile <br />
+cd rootFile <br />
 
-//download the code in this file
+//download the code in this file <br />
 
-//creating a virtual env
-python -m venv flask1
-//activating
-source flask1/bin/activate
+//creating a virtual env <br />
+python -m venv flask1 <br />
+//activating <br />
+source flask1/bin/activate <br />
 
-//install flask
-pip install flask
-pip install flask-wtf
+//install flask <br />
+pip install flask <br />
+pip install flask-wtf <br />
 
-//running on development mode
-export FLASK_ENV=development
-export FLASK_APP=hello.py
+//running on development mode <br />
+export FLASK_ENV=development <br />
+export FLASK_APP=hello.py <br />
 flask run
 
-//check on port 5000
+//check on port 5000 <br />
 
-#happy_coding :)
+#happy_coding :) <br />
