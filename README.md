@@ -22,10 +22,13 @@ pip install flask <br />
 pip install flask-wtf <br />
 
 //running on development mode <br />
-export FLASK_ENV=development <br />
-export FLASK_APP=hello.py <br />
-flask run
+flask run <br />
 
 //check on port 5000 <br />
 
+//deactivate venv <br />
+deactivate
+
 #happy_coding :) <br />
+
+
