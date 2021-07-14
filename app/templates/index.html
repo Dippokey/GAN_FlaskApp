@@ -1,0 +1,24 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1> General Adverserial Network </h1>
+    <h5> Generative Adversarial Networks (GANs) are powerful machine learning models capable of generating realistic image, video, and voice outputs.  </h5>
+    <br><br><br>
+    {% if name %}
+        <h3>File created with caption : {{name}}</h3>
+    {% else %}
+        <h3> Image Generation</h3>
+        <br><br>
+        <form method="POST">
+            {{ form.hidden_tag() }}
+            {{ form.name.label(class="form-label") }}
+            {{ form.name(class="form-control") }}
+            <br><br>
+            {{ form.submit(class="btn btn-primary") }}
+        </form>
+    {% endif %}
+
+{% endblock %}
+
+
